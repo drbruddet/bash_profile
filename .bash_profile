@@ -10,6 +10,7 @@ export PS1="\[\033[0;96m\]\t \[\033[0;93m\][\[\033[0;93m\]\w\[\033[0;93m\]] \[\0
 #   ------------------------------------------------------------
 export CLICOLOR=1
 export EDITOR=/usr/bin/atom
+export PATH="/usr/local/bin:$PATH"
 export BLOCKSIZE=1k
 
 #   -----------------------------
