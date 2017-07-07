@@ -13,6 +13,13 @@ export EDITOR=/usr/bin/atom
 export PATH="/usr/local/bin:$PATH"
 export BLOCKSIZE=1k
 
+#   ------------------------------------------------------------
+#   GIT Setup
+#   ------------------------------------------------------------
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
+
 #   -----------------------------
 #   MAKE TERMINAL EASY
 #   -----------------------------
