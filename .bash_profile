@@ -43,3 +43,5 @@ zipf () { zip -r "$1".zip "$1" ; }          # zipf: To create a ZIP archive of a
 alias myip='curl ip.appspot.com'            # myip: Public facing IP Address
 alias grep='grep --color=auto'              # grep with colors
 alias reload='source ~/.bash_profile'       # reload Shell
+
+alias cleanpython='find . | grep -E "(__pycache__|\.pyc|\.py~|\.pyo$)" | xargs rm -rf' # Clean python files
